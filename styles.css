@@ -57,7 +57,7 @@
   }
 }
 
-.post > a {
+.post>a {
   position: relative;
   color: var(--common-white);
 }
@@ -81,6 +81,35 @@
 .post-title {
   color: var(--common-white);
   font-family: var(--common-font);
+}
+
+.longread {
+  display: grid;
+  gap: 96px;
+}
+
+@media (min-width: 1440px) {
+  .longread {
+    grid-template-areas:
+      "b b s"
+      "b b s"
+      "b b v"
+      "b b .";
+
+    gap: 30px 24px;
+  }
+
+  .blog {
+    grid-area: b;
+  }
+
+  .social {
+    grid-area: s;
+  }
+
+  .video {
+    grid-area: v;
+  }
 }
 
 .blog {
@@ -184,4 +213,11 @@
 .footer {
   padding: 16px;
   background-color: var(--blue-light);
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  align-items: center;
+  gap: 8px;
 }
