@@ -7,7 +7,7 @@
 
 .header-container {
   display: grid;
-  grid-template-columns: 24px 1fr;
+  grid-template-columns: 24px 1fr 1fr;
   column-gap: 8px;
   align-items: center;
 }
@@ -217,7 +217,7 @@
 
 .footer-container {
   display: grid;
-  grid-template-columns: 24px 1fr;
+  grid-template-columns: 24px 1fr 1fr;
   align-items: center;
   gap: 8px;
 }
