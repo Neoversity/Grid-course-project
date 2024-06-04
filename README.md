@@ -1,1 +1,3 @@
 # Grid-course-project
+
+In my last project, I used CSS Grid technology to create a responsive website layout 🌐. During my work, I mastered the basic CSS properties of the container and CSS Grid elements, which allowed me to effectively configure the structure and placement of elements on the page 🔧. Using advanced techniques, I created a layout that dynamically adapts to different screen sizes 📱💻, ensuring ease of use on any device. Thanks to this project, I now have a responsive layout site in my portfolio that showcases my CSS Grid skills 💼✨.
